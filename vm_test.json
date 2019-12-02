@@ -1,0 +1,34 @@
+[
+    {
+        "vm_base": {
+            "VMId": "id1",
+			"VMName": "vm1"
+        },
+        "hw_spec": {
+            "Core1": {
+                "VMId": "core_id1",
+                "DiskMedia": "SSD"
+            },
+            "Core2": {
+                "VMId": "core_id2",
+                "DiskMedia": "HDD"
+            }
+        }
+    },
+	{
+        "vm_base": {
+            "VMId": "id2",
+			"VMName": "vm2"
+        },
+        "hw_spec": {
+            "Core1": {
+                "VMId": "core_id1",
+                "DiskMedia": "SSD"
+            },
+            "Core3": {
+                "VMId": "core_id3",
+                "DiskMedia": "HDD + SSD"
+            }
+        }
+    }
+]
